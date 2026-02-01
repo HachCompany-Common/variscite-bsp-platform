@@ -1,4 +1,4 @@
-= Variscite BSP Platform
+= Hach BSP Platform based on Variscite FSLC Yocto Project
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -13,10 +13,10 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir ~/var-fslc-yocto
-$: cd ~/var-fslc-yocto
-$: repo init -u https://github.com/varigit/variscite-bsp-platform -b scarthgap -m default.xml
-$: repo sync -j4
+$: mkdir ~/var-hach-fslc-yocto
+$: cd ~/var-hach-fslc-yocto
+$: repo init -u https://github.com/varigit/variscite-bsp-platform -b scarthgap-hach -m default.xml
+$: repo sync -j$(nproc)
 
 At the end of the commands you have every metadata you need to start work with.
 
@@ -28,4 +28,4 @@ $: bitbake core-image-base
 
 You can use any directory to host your build.
 
-The source code is checked out at `var-fslc-yocto/sources`.
+The source code is checked out at `var-hach-fslc-yocto/sources`.
