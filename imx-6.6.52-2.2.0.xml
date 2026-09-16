@@ -58,4 +58,8 @@
   </project>
   <project name="var-host-docker-containers" remote="variscite"     path="sources/var-host-docker-containers" revision="dd7218bb6e1c76db77cf40552b4cad7dfaa795fc" upstream="master"/>
 
+  <!-- Hach: SBOM layer -->
+  <!-- meta cycloneDX layer (CycloneDX compliant SBOMs), https://layers.openembedded.org/layerindex/branch/master/layer/meta-cyclonedx -->
+  <remote name="cyclone"  fetch="https://github.com/HachCompany-Common"/>
+  <project remote="cyclone" revision="4854933e0850172c7d6115eb139af331127748de" name="meta-cyclonedx" path="sources/meta-cyclonedx" upstream="scarthgap"></project>
 </manifest>
