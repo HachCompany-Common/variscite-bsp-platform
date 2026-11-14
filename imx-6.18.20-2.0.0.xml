@@ -63,5 +63,5 @@
   <!-- Hach: SBOM layer -->
   <!-- meta cycloneDX layer (CycloneDX compliant SBOMs), https://layers.openembedded.org/layerindex/branch/master/layer/meta-cyclonedx -->
   <remote name="cyclone"  fetch="https://github.com/HachCompany-Common"/>
-  <project remote="cyclone" revision="5b9d37f5d5cbab0c9fb59b46e3ebe4c7ef78887f" name="meta-cyclonedx" path="sources/meta-cyclonedx" upstream="wrynose"></project>
+  <project remote="cyclone" revision="6318b8a21fcc37b1da3c17f0cc64dae1fddea497" name="meta-cyclonedx" path="sources/meta-cyclonedx" upstream="wrynose"></project>
 </manifest>
